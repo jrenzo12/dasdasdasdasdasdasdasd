@@ -1,0 +1,78 @@
+.contenedor {
+  background-color: black;
+}
+/* aplicaremos degradados a las cajas */
+/* abajo hacia arribak */
+.degradado {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, red, yellow);
+}
+/* izquierda a derecha */
+.degradado2 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to left, green, yellow);
+}
+.degradado3 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to right, blue, yellow);
+}
+.degradado4 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to top, red, white);
+}
+/* degradado de muchos colores de izquierda a derecha */
+.degradado5 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(
+    to left,
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+.degradado6 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+.degradado7 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(180deg, red, yellow);
+}
+/* izquierda a derecha */
+.degradado8 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(-90deg, green, yellow);
+}
+.degradado9 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(90deg, blue, yellow);
+}
+.degradado10 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(0deg, red, white);
+}
+.degradado11 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(70deg, red, white);
+}

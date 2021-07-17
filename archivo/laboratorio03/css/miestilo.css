@@ -1,0 +1,19 @@
+h1 {
+  color: orangered;
+  font-weight: bolder;
+  font-family: arial, helvetica, sans-serif;
+}
+h2 {
+  color: blue;
+  font-weight: bolder;
+}
+p {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+hr {
+  background-color: rgb(23, 114, 23);
+  height: 20px;
+}

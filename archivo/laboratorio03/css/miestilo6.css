@@ -1,0 +1,62 @@
+body {
+  background-color: gray;
+}
+.contenedor {
+  background-color: indianred;
+}
+.caja1 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+}
+/* agregamos margenes para cada etiqueta div */
+/* agregamos margen a la izquierda */
+/* izquierda */
+.caja2 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-left: 40px;
+}
+/* derecha */
+.caja3 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-right: 40px;
+}
+/* arriba */
+.caja4 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-top: 40px;
+}
+/* abajo */
+.caja5 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-bottom: 40px;
+}
+/* margen personalizado */
+.caja6 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin: 20px 80px 30px 10px;
+}
+/* margen caja medio todo */
+.caja7 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin: auto;
+}

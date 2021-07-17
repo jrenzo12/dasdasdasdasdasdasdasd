@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 4</title>
+    <script type="text/javascript">
+    function MostrarMensaje(ed){
+        var n="";
+        if(ed>=18){
+            n="eres mayor de edad";
+        }else{
+            n="eres menor de edad";
+        }
+        return n;
+    }
+    function Mostrar(){
+        var txtEdad=document.getElementById("txtEdad");
+        var txtMen=document.getElementById("txtMen");
+        if(txtEdad.value==""){
+            alert("ingresa tu edad");
+            txtEdad.focus();
+        }else{
+            var edad=0, men="";
+            edad=parseFloat(txtEdad.value);
+            men=MostrarMensaje(edad);
+            txtMen.value=men;
+        }
+    }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="txtEdad">Edad</label>
+        <input type="text" name="txtEdad" id="txtEdad">
+        <br>
+        <label for="txtMen">Mensaje</label>
+        <input type="text" name="txtMen" id="txtMen">
+        <br>
+        <input type="button"  value="Mostrar" name="btnMostrar" id="btnMostrar" onclick="Mostrar()">
+        <input type="reset" value="Limpiar" name="btnLimpiar" id="btnLimpiar">
+    </form>
+</body>
+</html>

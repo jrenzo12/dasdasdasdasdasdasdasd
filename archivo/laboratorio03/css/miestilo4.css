@@ -1,0 +1,97 @@
+.contenedor {
+  background-color: blue;
+}
+.cabecera {
+  background-color: blueviolet;
+}
+.menu {
+  background-color: chartreuse;
+}
+.contenido {
+  background-color: chocolate;
+}
+.pie {
+  background-color: cornflowerblue;
+}
+body {
+  background-color: darkgray;
+}
+.parrafoimagen {
+  background-image: url("/img/WhatsApp\ Image\ 2021-04-22\ at\ 11.30.41\ PM.jpeg");
+}
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: whitesmoke;
+}
+.parrafoimagenrepetir {
+  background-image: url(/img/html5ycss3.png);
+}
+/* agregamos una imagen de fondo al parrafo pero quiero que no se repita */
+.parrafoimagennorepetir {
+  background-image: url(/img/html5ycss3.png);
+  background-repeat: no-repeat;
+}
+.parrafoimagentamaño {
+  background-image: url(/img/html5ycss3.png);
+  background-size: 30px;
+}
+.parrafoimagenrepetirhorizontal {
+  background-image: url(/img/html5ycss3.png);
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+.parrafoimagenrepetirvertical {
+  background-image: url(/img/html5ycss3.png);
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+.parrafoimagencentrar {
+  background-image: url(/img/html5ycss3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagenizquierda {
+  background-image: url(/img/html5ycss3.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagenderecha {
+  background-image: url(/img/html5ycss3.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagensuperior {
+  background-image: url(/img/html5ycss3.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimageninferior {
+  background-image: url(/img/html5ycss3.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagensuperiorderecha {
+  background-image: url(/img/html5ycss3.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimageninferiorizquierda {
+  background-image: url(/img/html5ycss3.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagenesfondo {
+  background-image: url(/img/html5ycss3.png),
+    url(/img/WhatsApp\ Image\ 2021-04-22\ at\ 11.30.41\ PM.jpeg);
+  background-position: left, right;
+  background-size: 80px 150px;
+  background-repeat: no-repeat;
+}
