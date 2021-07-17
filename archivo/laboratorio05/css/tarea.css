@@ -1,0 +1,52 @@
+body {
+    background-color: azure;
+  }
+  h1{
+    color: blue;
+    margin-left: 450px;
+  }
+  .formulario {
+    background-color: white;
+    padding: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+
+  }
+  .boton{
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .formulario01{
+    padding: auto;
+  }
+  table {
+    width: 100%;
+    border: 3px solid darkblue;
+    border-collapse: collapse;
+  }
+  table thead th,
+  table tbody td {
+    border: 3px solid darkorchid;
+  }
+  tbody{
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+
+  }
+
+  th {
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+  }
+  .error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #ce1818;
+    color: white;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
