@@ -1,0 +1,54 @@
+body {
+  background-color: azure;
+}
+.contenedor {
+  background-color: darkcyan;
+  border: 1px solid black;
+  padding: 12px;
+  margin: auto;
+  width: 980px;
+  height: 735px;
+}
+.datosgenerales {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 12px;
+  margin: auto;
+  width: 900px;
+  height: 230px;
+}
+.cualidad {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 12px;
+  width: 900px;
+  height: 120px;
+  margin: auto;
+}
+.formacion {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 12px;
+  width: 900px;
+  height: 170px;
+  margin: auto;
+}
+.contactanos {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 12px;
+  width: 900px;
+  height: 110px;
+  margin: auto;
+}
+li .active{
+  text-align: center;
+  border: 1px solid #555;
+
+}
+li .active   a{
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
